@@ -78,5 +78,27 @@ const awards = [
     subtitle: 'Daremos un Homenaje en nuestro espacio con una dedicatoria que de emociones increibles a ese dia especial',
   },
 ];
+const awardsTwo = [
+  {
+    imgUrl: images.award02,
+    title: '9 cantantes',
+    subtitle: 'Nuestros mejores musicos para un gran espectáculo.',
+  },
+  {
+    imgUrl: images.award01,
+    title: '9 Canciones',
+    subtitle: 'Tus canciones favoritas o seleccionadas de nuestro repertorio.',
+  },
+  {
+    imgUrl: images.award05,
+    title: 'Recordatorio + Sonido',
+    subtitle: 'Obsequiamos un regalo para conmemorar ese gran dia y el sonido nosotros nos encargamos.',
+  },
+  {
+    imgUrl: images.award03,
+    title: 'Homenaje Unico',
+    subtitle: 'Daremos un Homenaje en nuestro espacio con una dedicatoria que de emociones increibles a ese dia especial',
+  },
+];
 
-export default { wines, cocktails, awards };
+export default { wines, cocktails, awards, awardsTwo };

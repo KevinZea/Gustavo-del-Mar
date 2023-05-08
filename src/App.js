@@ -10,6 +10,7 @@ import {
   Intro,
   Laurels,
   SpecialMenu,
+  Plan
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
@@ -23,6 +24,7 @@ const App = () => (
     <Chef />
     <Intro />
     <Laurels />
+    <Plan/>
     <Gallery />
     <FindUs />
     <Footer />

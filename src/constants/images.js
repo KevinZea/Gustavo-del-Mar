@@ -21,6 +21,7 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import logos from '../assets/logo.png'
 import welcome from '../assets/imagen1.jpeg'
+import lujo from "../assets/LUJO.jpg"
 
 export default {
   bg,
@@ -45,4 +46,5 @@ export default {
   sign,
   quote,
   logos,
+  lujo
 };
