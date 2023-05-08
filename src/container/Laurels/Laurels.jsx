@@ -21,6 +21,8 @@ const Laurels = () => (
     <div className="app__wrapper_info">
       <SubHeading title="Nuestros mejores Planes" />
       <h1 className="headtext__cormorant">VIP</h1>
+      <h3 className="headtext__cormorant">Enfocado para eventos grandes</h3>
+
 
       <div className="app__laurels_awards">
         {data.awards.map((award) => (
