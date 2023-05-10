@@ -7,9 +7,9 @@ const linkWhatsapp = "https://api.whatsapp.com/send?phone=573118284067"
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
     <div className="app__wrapper_info">
-      <SubHeading title="Plan Basico" />
+      <SubHeading title="Plan Básico" />
       <h1 className="headtext__cormorant" style={{ marginBottom: "3rem" }}>
-        BASICA
+        BÁSICA
       </h1>
       <div className="app__wrapper-content">
         <p className="p__opensans">
@@ -19,7 +19,7 @@ const FindUs = () => (
           className="p__cormorant"
           style={{ color: "#DCCA87", margin: "2rem 0" }}
         >
-          SERENATA BASICA
+          SERENATA BÁSICA
         </p>
         <p className="p__opensans">Pack de 7 canciones</p>
         <p className="p__opensans">Tambien incluye sonido</p>
