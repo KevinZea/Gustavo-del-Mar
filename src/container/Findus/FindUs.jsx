@@ -5,7 +5,7 @@ import { images } from "../../constants";
 import {RiWhatsappFill} from "react-icons/ri"
 const linkWhatsapp = "https://api.whatsapp.com/send?phone=573118284067"
 const FindUs = () => (
-  <div className="app__bg app__wrapper section__padding" id="contact">
+  <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_info">
       <SubHeading title="Plan Estrella" />
       <h1 className="headtext__cormorant" style={{ marginBottom: "3rem" }}>

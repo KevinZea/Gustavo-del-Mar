@@ -19,9 +19,6 @@ const Navbar = () => {
           <a href="#about">Sobre nosotros</a>
         </li>
         <li className="p__opensans">
-          <a href="#menu">Menu</a>
-        </li>
-        <li className="p__opensans">
           <a href="#awards">Especial</a>
         </li>
         <li className="p__opensans">
@@ -58,11 +55,7 @@ const Navbar = () => {
                   Información
                 </a>
               </li>
-              <li>
-                <a href="#menu" onClick={() => setToggleMenu(false)}>
-                  Menu
-                </a>
-              </li>
+              
               <li>
                 <a href="#awards" onClick={() => setToggleMenu(false)}>
                   Especial
