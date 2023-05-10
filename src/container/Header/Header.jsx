@@ -4,7 +4,11 @@ import { SubHeading } from "../../components";
 import { images } from "../../constants";
 import "./Header.css";
 import { RiWhatsappFill } from "react-icons/ri"
+import { FiYoutube } from "react-icons/fi";
+import { FaInstagramSquare } from "react-icons/fa";
 const linkWhatsapp = "https://api.whatsapp.com/send?phone=573118284067"
+const linkInstagram = "https://instagram.com/gustavodelmar_?igshid=YmMyMTA2M2Y="
+
 const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper_info">
@@ -25,6 +29,25 @@ const Header = () => (
         </a>
         {" "}
 
+      </div>
+      <br />
+      <div className="pageInstagram">
+        <FaInstagramSquare
+          color="black"
+          fontSize={20}
+        />
+        <a href={linkInstagram} target="_blank" rel="noopener noreferrer">
+          Ir a Instagram
+        </a>
+        {"  "}
+
+      </div>
+      <br />
+      <div className="pageYoutube">
+      <FiYoutube/>
+        <a href="https://youtube.com/@gustavodelmar6993" target="_blank" rel="noopener noreferrer">
+          Visita nuestro canal
+        </a>
       </div>
     </div>
 
