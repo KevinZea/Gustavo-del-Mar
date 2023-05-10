@@ -19,7 +19,7 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
 const Laurels = () => (
   <div className="app__bg app__wrapper section__padding" id="awards">
     <div className="app__wrapper_info">
-      <SubHeading title="Nuestros mejores Planes" />
+      {/* <SubHeading title="Nuestros mejores Planes" /> */}
       <h1 className="headtext__cormorant">VIP</h1>
       <h3 className="headtext__cormorant">Enfocado para eventos grandes</h3>
 

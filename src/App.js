@@ -10,7 +10,8 @@ import {
   Intro,
   Laurels,
   SpecialMenu,
-  Plan
+  Plan,
+  Basic
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
@@ -27,6 +28,7 @@ const App = () => (
     <Plan/>
     <Gallery />
     <FindUs />
+    <Basic/>
     <Footer />
   </div>
 );

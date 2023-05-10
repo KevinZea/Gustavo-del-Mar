@@ -18,7 +18,7 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
 const Plan = () => (
   <div className="app__bg app__wrapper section__padding" id="awards">
     <div className="app__wrapper_info">
-      <SubHeading title="Nuestros mejores Planes" />
+      {/* <SubHeading title="Nuestros mejores Planes" /> */}
       <h1 className="headtext__cormorant">LUJO</h1>
 
       <div className="app__laurels_awards">

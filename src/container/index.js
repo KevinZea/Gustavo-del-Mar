@@ -8,6 +8,7 @@ import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';
 import Plan from './plan/plan';
+import Basic from "./Basic/Basic"
 
 export {
   AboutUs,
@@ -19,5 +20,6 @@ export {
   Intro,
   Laurels,
   SpecialMenu,
-  Plan
+  Plan,
+  Basic
 };
