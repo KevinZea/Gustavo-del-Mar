@@ -47,7 +47,7 @@ const AboutUs = () => (
         <p className="p__opensans">
           Gustavo Del Mar.
           Cantante de música ranchera, popular y balada con una trayectoria
-          de 15 años a nivel profesionalo en la música, con 2 producciones
+          de 15 años a nivel profesional en la música, con 2 producciones
           musicales, la última "Tú lo mejor de todo", Con presentaciones en
           varias ciudades de Colombia
         </p>

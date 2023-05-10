@@ -59,7 +59,7 @@ const cocktails = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: '10 musicos',
+    title: '10 Músicos',
     subtitle: 'Nuestros mejores musicos para un gran espectáculo.',
   },
   {
@@ -81,7 +81,7 @@ const awards = [
 const awardsTwo = [
   {
     imgUrl: images.award02,
-    title: '9 Musicos',
+    title: '5 Músicos',
     subtitle: 'Nuestros mejores musicos para un gran espectáculo.',
   },
   {
