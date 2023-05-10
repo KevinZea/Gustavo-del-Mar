@@ -22,7 +22,6 @@ const Chef = () => (
         </div>
         <p className="p__opensans">
           {" "}
-          
           La bendición de llevar emociones muy positivas a las personas que nos contratan para que estemos en
           sus hogares o en alguna tarima ,alegrías ,aplausos ,
           Sonrisas y lágrimas de felicidad y nuestra misión es más evidente
