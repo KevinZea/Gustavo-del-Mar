@@ -23,7 +23,7 @@ import logos from '../assets/logo.png'
 import welcome from '../assets/imagen1.jpeg'
 import lujo from "../assets/LUJO.jpg"
 import basic from "../assets/basic.jpeg"
-
+import grupo from "../assets/grupo.jpeg"
 export default {
   bg,
   chef,
@@ -48,5 +48,6 @@ export default {
   quote,
   logos,
   lujo,
-  basic
+  basic,
+  grupo
 };
