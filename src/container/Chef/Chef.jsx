@@ -17,14 +17,18 @@ const Chef = () => (
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
           <p className="p__opensans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .
+          Nos gusta nuestro trabajo y lo hacemos con amor.
           </p>
         </div>
         <p className="p__opensans">
           {" "}
-          auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
-          Nulla scelerisque scelerisque congue ac consequat, aliquam molestie
-          lectus eu. Congue iaculis integer curabitur semper sit nunc.{" "}
+          
+          La bendición de llevar emociones muy positivas a las personas que nos contratan para que estemos en
+          sus hogares o en alguna tarima ,alegrías ,aplausos ,
+          Sonrisas y lágrimas de felicidad y nuestra misión es más evidente
+          al ver la alegría con la que nos reciben y la melancolía
+          al terminar nuestra presentación
+          {" "}
         </p>
       </div>
 

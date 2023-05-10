@@ -16,14 +16,15 @@ const Header = () => (
         {" "}
       </p>
       <div className="contactWhatsapp">
-        <a href={linkWhatsapp} target="_blank" rel="noopener noreferrer">
-          Contactanos
-        </a>
-        {" "}
         <RiWhatsappFill
           color="black"
           fontSize={20}
         />
+        <a href={linkWhatsapp} target="_blank" rel="noopener noreferrer">
+          CONTACTANOS
+        </a>
+        {" "}
+
       </div>
     </div>
 

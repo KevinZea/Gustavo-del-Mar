@@ -2,7 +2,7 @@ import React from "react";
 
 import { SubHeading } from "../../components";
 import { images } from "../../constants";
-import {RiWhatsappFill} from "react-icons/ri"
+import { RiWhatsappFill } from "react-icons/ri"
 const linkWhatsapp = "https://api.whatsapp.com/send?phone=573118284067"
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
@@ -26,14 +26,15 @@ const FindUs = () => (
       </div>
       <br />
       <div className="contactWhatsapp">
-        <a href={linkWhatsapp} target="_blank" rel="noopener noreferrer">
-          Contactanos
-        </a>
-        {" "}
         <RiWhatsappFill
           color="black"
           fontSize={20}
         />
+        <a href={linkWhatsapp} target="_blank" rel="noopener noreferrer">
+          Contactanos
+        </a>
+        {" "}
+
       </div>
     </div>
 

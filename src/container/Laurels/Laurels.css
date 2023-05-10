@@ -16,6 +16,9 @@
 
   margin: 1rem;
 }
+.app__wrapper_img img{
+  border-radius: 10px;
+}
 
 @media screen and (min-width: 1900px) {
   .app__laurels_awards-card {
