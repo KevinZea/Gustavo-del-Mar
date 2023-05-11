@@ -5,6 +5,7 @@ import { images } from "../../constants";
 import "./Header.css";
 import { RiWhatsappFill } from "react-icons/ri"
 import { FiYoutube } from "react-icons/fi";
+import {IoLogoTiktok} from "react-icons/io5"
 import { FaInstagramSquare } from "react-icons/fa";
 const linkWhatsapp = "https://api.whatsapp.com/send?phone=573118284067"
 const linkInstagram = "https://instagram.com/gustavodelmar_?igshid=YmMyMTA2M2Y="
@@ -47,6 +48,13 @@ const Header = () => (
       <FiYoutube/>
         <a href="https://youtube.com/@gustavodelmar6993" target="_blank" rel="noopener noreferrer">
           Visita nuestro canal
+        </a>
+      </div>
+      <br />
+      <div className="pageYoutube">
+        <IoLogoTiktok/>
+        <a href="https://www.tiktok.com/@mariachigustavodelmar?_t=8cEdEaoFBuX&_r=1" target="_blank" rel="noopener noreferrer">
+          Perfil de Tiktok
         </a>
       </div>
     </div>
