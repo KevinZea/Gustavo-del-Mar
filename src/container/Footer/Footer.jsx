@@ -21,7 +21,7 @@ const Footer = () => (
       <div className="app__footer-links_logo">
         <img src={images.logos} alt="footer_logo" />
         <p className="p__opensans">
-          &quot;El mejor espectaculo de serenata para tus eventos&quot;
+          &quot;El mejor espectaculo de serenata para tus celebraciones&quot;
         </p>
         <div className="app__footer-links_icons">
           <a href="https://www.facebook.com/profile.php?id=100009348774673&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
