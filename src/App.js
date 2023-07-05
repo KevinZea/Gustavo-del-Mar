@@ -13,11 +13,13 @@ import {
   Plan,
   Basic
 } from "./container";
+import BWhatsapp from "./components/BWhatsapp/BWhatsapp";
 import { Navbar } from "./components";
 import "./App.css";
 
 const App = () => (
   <div>
+    <BWhatsapp/>
     <Navbar />
     <Header />
     <AboutUs />
