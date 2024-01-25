@@ -1,7 +1,7 @@
 import React from "react";
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
 
-import { meal, mealTwo } from "../../constants";
+import { meal, mealTwo, videoNuevo } from "../../constants";
 import "./Intro.css";
 
 const Intro = () => {
@@ -46,6 +46,35 @@ const Intro = () => {
         <video
           ref={video}
           src={mealTwo}
+          type="video/mp4"
+          loop
+          controls={false}
+        />
+        <div className="app__video-overlay flex__center">
+          <div
+            className="app__video-overlay_circle flex__center"
+            onClick={() => {
+              setPlay(!play);
+              if (play) {
+                video.current.pause();
+              } else {
+                video.current.play();
+              }
+            }}
+          >
+            {play ? (
+              <BsPauseFill color="#fff" fontSize={30} />
+            ) : (
+              <BsFillPlayFill color="#fff" fontSize={30} />
+            )}
+          </div>
+        </div>
+      </div>
+      <br />
+      <div className="app__video">
+        <video
+          ref={video}
+          src={videoNuevo}
           type="video/mp4"
           loop
           controls={false}

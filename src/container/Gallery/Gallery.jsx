@@ -53,6 +53,11 @@ const Gallery = () => {
             images.gallery02,
             images.gallery03,
             images.gallery04,
+            images.gallery05,
+            images.gallery06,
+            images.gallery07,
+            images.gallery08,
+            images.gallery09,
             images.grupo
           ].map((image, index) => (
             <div
