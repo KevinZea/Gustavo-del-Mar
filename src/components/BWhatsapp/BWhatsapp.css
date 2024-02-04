@@ -1,0 +1,23 @@
+.boton{
+    background-color: rgb(1, 198, 1);
+    color:aliceblue;
+    width: max-content;
+    height: max-content;
+    position: fixed;
+    z-index: 1;
+    font-size: 40px;
+    right: 5%;
+    bottom: 5%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    border-radius: 100px;
+}
+.boton a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.iconoWhatsapp{
+    vertical-align: middle;
+}
