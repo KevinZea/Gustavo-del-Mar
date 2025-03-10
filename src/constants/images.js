@@ -25,7 +25,7 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import logos from '../assets/logo.png'
-import welcome from '../assets/imagen1.jpeg'
+import welcome from '../assets/imagen1.jpg'
 import lujo from "../assets/LUJO.jpg"
 import basic from "../assets/basic.jpeg"
 import grupo from "../assets/grupo.jpeg"
